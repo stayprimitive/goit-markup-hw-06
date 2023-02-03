@@ -548,9 +548,62 @@
         <button type="button" class="modal-close" data-modal-close>
           <svg width="24" height="24" class="modal-close-svg">
             <use href="./images/icons.svg#icon-close"></use>
-
           </svg>
         </button>
+        <p class="modal-title">Leave your contacts and we will call you back</p>
+        <form class="modal-form">
+        <label>
+        <span class="modal-input-title">Name</span>
+        <div class="modal-input-field">
+        <input type="text" class="modal-input" name="user-name" placeholder="Enter your name" required>
+                  <svg
+                  class="modal-input-icon"
+                  width="20px"
+                  height="20px"
+                >
+                  <use href="./images/form/formicons.svg#icon-name"></use>
+                </svg>
+                </div>
+        </label>
+
+
+
+        <label>
+          <span class="modal-input-title">Phone</span>
+                <div class="modal-input-field">
+        <input type="tel" class="modal-input" name="user-phone" placeholder="Enter your phone number" required>
+                  <svg
+                  class="modal-input-icon"
+                  width="20px"
+                  height="20px"
+                >
+                  <use href="./images/form/formicons.svg#icon-phone"></use>
+                </svg>
+                </div>
+        </label>
+
+
+
+               <label>
+          <span class="modal-input-title">Phone</span>
+                <div class="modal-input-field">
+        <input type="email" class="modal-input" name="user-email" placeholder="Enter your email adress" required>
+                  <svg
+                  class="modal-input-icon"
+                  width="21px"
+                  height="21px"
+                >
+                  <use href="./images/form/formicons.svg#icon-email"></use>
+                </svg>
+                </div>
+        </label>
+
+        <label>
+  <span class="modal-input-title">Comment</span>
+  <textarea name="user-text" id="user-text" cols="30" rows="10" class="modal-comment-area" placeholder="Text input"></textarea>
+        </label>
+          <button type="submit" class="modal-submit">Send</button>
+        </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
