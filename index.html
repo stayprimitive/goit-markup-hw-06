@@ -541,13 +541,40 @@
             </li>
           </ul>
         </div>
+
+<div class="footer-subscribe">
+<h3 class="footer-socialmedia-title">Subscribe</h2>
+<form class="footer-subscribe-form">
+  <div class="subscribe-box">
+  <input 
+  type="text" 
+  class="subscribe-input"
+  placeholder="E-mail"
+  name="subscribe-input-name">
+    <span>
+  <button type="submit" class="subscribe-button"><span class="subscribe-button-title">Subscribe</span> 
+                                  <svg
+                  class="subdcribe-icon"
+                  width="24px"
+                  height="20px"
+                >
+                  <use href="./images/form/formicons.svg#icon-pplane"></use>
+                </svg> 
+  </span>
+  </button>
+  </div>
+</form>
+</div>
+
+
       </div>
+
     </footer>
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="modal-close" data-modal-close>
-          <svg width="24" height="24" class="modal-close-svg">
-            <use href="./images/icons.svg#icon-close"></use>
+          <svg width="8" height="8" class="modal-close-svg">
+            <use href="./images/form/formicons.svg#icon-closebttn"></use>
           </svg>
         </button>
         <p class="modal-title">Leave your contacts and we will call you back</p>
@@ -583,9 +610,8 @@
         </label>
 
 
-
                <label>
-          <span class="modal-input-title">Phone</span>
+          <span class="modal-input-title">Email</span>
                 <div class="modal-input-field">
         <input type="email" class="modal-input" name="user-email" placeholder="Enter your email adress" required>
                   <svg
@@ -602,7 +628,31 @@
   <span class="modal-input-title">Comment</span>
   <textarea name="user-text" id="user-text" cols="30" rows="10" class="modal-comment-area" placeholder="Text input"></textarea>
         </label>
-          <button type="submit" class="modal-submit">Send</button>
+<div class="">
+<input type="checkbox"
+name="privacy"
+id="privacy"
+value="true"
+class="input-check hide-me"
+>
+<label 
+for="privacy" 
+class="check-text">
+<span class="modal-check-span">
+                    <svg
+                  width="10px"
+                  height="10px"
+                  class="modal-check-icon"
+                >
+                  <use href="./images/form/formicons.svg#icon-checked"></use>
+                </svg>
+</span>
+I accept the terms and conditions of the&nbsp;      
+<a href="">Privacy Policy</a>
+</label>
+</div>
+          <div class="centered"><button type="submit" class="modal-submit">Send</button>
+            </div>
         </form>
       </div>
     </div>
